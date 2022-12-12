@@ -6,6 +6,10 @@
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
 
+    "useCesiumIonTerrain": false,
+    //"cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkNmI4MTk4ZC1hMTg5LTQyYjctYjhmOC0wMjNiOTg2MDM5ZDkiLCJpZCI6MTE4MDM4LCJpYXQiOjE2NzA4MjYxNjZ9.i0VTdbGUpnZd-jf7gcEg-S6CJgaemT9sotEcUDhlV-0",
+    "cesiumTerrainUrl": "https://api.maptiler.com/tiles/terrain-quantized-mesh-v2/?key=KNdj5oWNZZik1erPN6Db",
+
     // Log ConsoleAnalytics events to console
     // logToConsole: true,
 
@@ -24,24 +28,24 @@
 
     // Pop-up disclaimer that will be shown at the start
     // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
-    // globalDisclaimer: {
-    //     confirmationRequired: false,
-    //     buttonTitle: "I agree",
-    //     title: "Disclaimer",
-    //     // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
-    //     // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
-    //     //prodHostRegex: "gov.\\.au$",
-    //     //devHostRegex: "\\b(staging|preview|test|dev)\\.",
-    //     enableOnLocalhost: true // If false, don't show this when running on localhost
-    // },
+    /*"globalDisclaimer": {
+        "confirmationRequired": false,
+        "buttonTitle": "I agree",
+        "title": "Disclaimer",
+        // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
+        // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
+        //prodHostRegex: "gov.\\.au$",
+        //devHostRegex: "\\b(staging|preview|test|dev)\\.",
+        "enableOnLocalhost": true // If false, don't show this when running on localhost
+    },*/
 
-    /*
-        developerAttribution: {
-            text: "Your organisation",
-            link: "http://www.example.com"
-        },*/
+    "developerAttribution": {
+      "text": "ANU RE100",
+      "link": "http://re100.anu.edu.au"
+    },
     // This is used in various text messages. You should also set <title> in index.html
     "appName": "RE100 Map",
+    "bingMapsKey": "AszkiKWyg5NBLts7d6PlgtAPDEoXf1gSVP1ycQW7M5P12RcUb8l9z4tulHeBVW3P",
 
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [

@@ -13,8 +13,9 @@ module.exports = {
     {
       ...devApp,
       name: devApp.name + "-production",
-      args: "--config-file productionserverconfig.json --port 3000",
-      instances: Math.max(4, os.cpus().length)
+      args: "--config-file serverconfig.json --port 3000",
+      instances: 2, // Math.max(4, os.cpus().length)
+      autorestart: true
     }
   ]
 };

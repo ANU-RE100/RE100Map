@@ -2,10 +2,10 @@
   /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
   "initializationUrls": ["simple"],
   "parameters": {
-    "googleAnalyticsKey": null,
+    "googleAnalyticsKey": "G-0L10P5G22L",
     "googleAnalyticsOptions": null,
 
-    "aboutButtonHrefUrl": "hello",
+    "aboutButtonHrefUrl": "https://re100.eng.anu.edu.au",
     "extraCreditLinks": [
       // Default credit links (shown at the bottom of the Cesium map)
       /*{
@@ -15,6 +15,7 @@
       //{ "text": "map.extraCreditLinks.disclaimer", "url": "https://re100.eng.anu.edu.au/global/#disclaimer" }
     ],
     "hideTerriaLogo": true,
+    "relatedMaps": null,
 
     "useCesiumIonTerrain": false,
     //"cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkNmI4MTk4ZC1hMTg5LTQyYjctYjhmOC0wMjNiOTg2MDM5ZDkiLCJpZCI6MTE4MDM4LCJpYXQiOjE2NzA4MjYxNjZ9.i0VTdbGUpnZd-jf7gcEg-S6CJgaemT9sotEcUDhlV-0",

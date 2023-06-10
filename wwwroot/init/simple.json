@@ -1119,44 +1119,6 @@
               "info": [
                 {
                   "name": "Description",
-                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 500 GWh of electricity which will discharge over 168 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 25 million people. "
-                },
-                {
-                  "name": "Disclaimer",
-                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
-                },
-                {
-                  "name": "Access and acknowledgements",
-                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
-                },
-                {
-                  "name": "Source Data",
-                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
-                }
-              ],
-              "infoSectionOrder": [
-                "Disclaimer",
-                "Description",
-                "Access and acknowledgements",
-                "Source Data"
-              ],
-              "opacity": 1,
-              "featureInfoTemplate": {
-                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
-              },
-              "tileErrorHandlingOptions": {
-                "ignoreUnknownTileErrors": true
-              },
-              "name": "Indonesia Bluefield 500GWh 168h",
-              "id": "Indonesia_Bluefield_500GWh_168h",
-              "layers": "500gwh_168h",
-              "url": "https://re100.anu.edu.au/geoserver/indonesia_bluefield/wms"
-            },
-            {
-              "type": "wms",
-              "info": [
-                {
-                  "name": "Description",
                   "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 150 GWh of electricity which will discharge over 50 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 7.5 million people. "
                 },
                 {
@@ -1188,44 +1150,6 @@
               "name": "Indonesia Bluefield 150GWh 50h",
               "id": "Indonesia_Bluefield_150GWh_50h",
               "layers": "150gwh_50h",
-              "url": "https://re100.anu.edu.au/geoserver/indonesia_bluefield/wms"
-            },
-            {
-              "type": "wms",
-              "info": [
-                {
-                  "name": "Description",
-                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 50 GWh of electricity which will discharge over 50 hours yielding 1.0 GW of power. Each pair of reservoirs would provide sufficient energy for 2.5 million people. "
-                },
-                {
-                  "name": "Disclaimer",
-                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
-                },
-                {
-                  "name": "Access and acknowledgements",
-                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
-                },
-                {
-                  "name": "Source Data",
-                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
-                }
-              ],
-              "infoSectionOrder": [
-                "Disclaimer",
-                "Description",
-                "Access and acknowledgements",
-                "Source Data"
-              ],
-              "opacity": 1,
-              "featureInfoTemplate": {
-                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
-              },
-              "tileErrorHandlingOptions": {
-                "ignoreUnknownTileErrors": true
-              },
-              "name": "Indonesia Bluefield 50GWh 50h",
-              "id": "Indonesia_Bluefield_50GWh_50h",
-              "layers": "50gwh_50h",
               "url": "https://re100.anu.edu.au/geoserver/indonesia_bluefield/wms"
             },
             {
@@ -1271,6 +1195,44 @@
               "info": [
                 {
                   "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 2 GWh of electricity which will discharge over 6 hours yielding 0.3 GW of power. Each pair of reservoirs would provide sufficient energy for 0.1 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Indonesia Bluefield 2GWh 6h",
+              "id": "Indonesia_Bluefield_2.0GWh_6h",
+              "layers": "2gwh_6h",
+              "url": "https://re100.anu.edu.au/geoserver/indonesia_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
                   "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 5 GWh of electricity which will discharge over 18 hours yielding 0.3 GW of power. Each pair of reservoirs would provide sufficient energy for 0.25 million people. "
                 },
                 {
@@ -1309,6 +1271,204 @@
               "info": [
                 {
                   "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 500 GWh of electricity which will discharge over 168 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 25 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Indonesia Bluefield 500GWh 168h",
+              "id": "Indonesia_Bluefield_500GWh_168h",
+              "layers": "500gwh_168h",
+              "url": "https://re100.anu.edu.au/geoserver/indonesia_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 50 GWh of electricity which will discharge over 50 hours yielding 1.0 GW of power. Each pair of reservoirs would provide sufficient energy for 2.5 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Indonesia Bluefield 50GWh 50h",
+              "id": "Indonesia_Bluefield_50GWh_50h",
+              "layers": "50gwh_50h",
+              "url": "https://re100.anu.edu.au/geoserver/indonesia_bluefield/wms"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "Bluefield_Bhutan",
+          "name": "Nepal/Bhutan/Sikkim Bluefield Sites",
+          "description": "As the proportion of wind and solar photovoltaics (PV) in an electrical grid extends into the 50-100% range a combination of additional long-distance high voltage transmission, demand management and local storage is required for stability. Pumped Hydro Energy Storage (PHES) constitutes 97% of electricity storage worldwide because of its low cost.<p>The <a href='http://re100.eng.anu.edu.au/global'>RE100 Group ANU</a> found about 530,000 potentially feasible PHES sites with storage potential of about 22 million Gigawatt-hours (GWh) by using geographic information system (GIS) analysis. This is about one hundred times greater than required to support a 100% global renewable electricity system. Brownfield sites (existing reservoirs, old mining sites) will be included in a future analysis.</p>This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>Potential sites for off-river PHES are identified using GIS algorithms with defined search criteria. The surveyed latitude range is up to 60 degrees north and south. Each identified site comprises an upper and lower reservoir pair plus a hypothetical tunnel route between the reservoirs, and includes data such as latitude, longitude, altitude, head, slope, water volume, water area, rock volume, dam wall length, water/rock ratio, energy storage potential and approximate relative cost (categories A-E).</p><p>Wall heights are adjusted for each reservoir in a pair to yield equal water volumes to achieve the targeted energy storage. Energy (= head * usable volume * g * efficiency) and storage-length combinations are provided in Table 1. The approximate number of people that a reservoirs could service for a 100% renewable electricity grid is listed in the third line.</p><style>  table, th, td {    border: 1px solid black;    padding: 5px;    text-align: center;  }</style><center><table>  <tr>   <th>Energy</th> <th>Duration</th> <th>Millions of people</th> </tr> <tr>   <th>2 GWh</th> <td>6 hours</td> <td>0.1</td>   </tr>  <tr>    <th>5 GWh</th> <td>18 hours</td> <td>0.25</td>   </tr>  <tr>    <th>15 GWh</th> <td>18 hours</td> <td>0.75</td>   </tr>  <tr>    <th>50 GWh</th> <td>50 hours</td> <td>2.5</td>   </tr>  <tr>    <th>150 GWh</th> <td>50 hours</td> <td>7.5</td>   </tr>  <tr>    <th>500 GWh</th> <td>168 hours</td> <td>25</td>   </tr>  <tr>    <th>1500 GWh</th> <td>504 hours</td> <td>75</td>   </tr> </table></center><p>Virtually all upper reservoirs are away from rivers, and none intrude on protected area or urban areas listed in the databases that we use below.  There may be local constraints that prevent use of a particular site that is not reflected in these databases. Please refer to the ANU 100% Renewable Energy website for additional information: http://re100.eng.anu.edu.au/global</p>",
+          "members": [
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 1500 GWh of electricity which will discharge over 504 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 75 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Nepal/Sikkim/Bhutan 1500GWh 504h",
+              "id": "Bhutan_Bluefield_1500GWh_504h",
+              "layers": "1500gwh_504h",
+              "url": "https://re100.anu.edu.au/geoserver/bhutan_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 150 GWh of electricity which will discharge over 50 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 7.5 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Nepal/Sikkim/Bhutan 150GWh 50h",
+              "id": "Bhutan_Bluefield_150GWh_50h",
+              "layers": "150gwh_50h",
+              "url": "https://re100.anu.edu.au/geoserver/bhutan_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 15 GWh of electricity which will discharge over 18 hours yielding 0.8 GW of power. Each pair of reservoirs would provide sufficient energy for 0.75 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Nepal/Sikkim/Bhutan 15GWh 18h",
+              "id": "Bhutan_Bluefield_15GWh_18h",
+              "layers": "15gwh_18h",
+              "url": "https://re100.anu.edu.au/geoserver/bhutan_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
                   "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 2 GWh of electricity which will discharge over 6 hours yielding 0.3 GW of power. Each pair of reservoirs would provide sufficient energy for 0.1 million people. "
                 },
                 {
@@ -1337,10 +1497,1669 @@
               "tileErrorHandlingOptions": {
                 "ignoreUnknownTileErrors": true
               },
-              "name": "Indonesia Bluefield 2GWh 6h",
-              "id": "Indonesia_Bluefield_2.0GWh_6h",
+              "name": "Nepal/Sikkim/Bhutan 2GWh 6h",
+              "id": "Bhutan_Bluefield_2.0GWh_6h",
               "layers": "2gwh_6h",
-              "url": "https://re100.anu.edu.au/geoserver/indonesia_bluefield/wms"
+              "url": "https://re100.anu.edu.au/geoserver/bhutan_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 5 GWh of electricity which will discharge over 18 hours yielding 0.3 GW of power. Each pair of reservoirs would provide sufficient energy for 0.25 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Nepal/Sikkim/Bhutan 5GWh 18h",
+              "id": "Bhutan_Bluefield_5.0GWh_18h",
+              "layers": "5gwh_18h",
+              "url": "https://re100.anu.edu.au/geoserver/bhutan_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 500 GWh of electricity which will discharge over 168 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 25 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Nepal/Sikkim/Bhutan 500GWh 168h",
+              "id": "Bhutan_Bluefield_500GWh_168h",
+              "layers": "500gwh_168h",
+              "url": "https://re100.anu.edu.au/geoserver/bhutan_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 50 GWh of electricity which will discharge over 50 hours yielding 1.0 GW of power. Each pair of reservoirs would provide sufficient energy for 2.5 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Nepal/Sikkim/Bhutan 50GWh 50h",
+              "id": "Bhutan_Bluefield_50GWh_50h",
+              "layers": "50gwh_50h",
+              "url": "https://re100.anu.edu.au/geoserver/bhutan_bluefield/wms"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "Bluefield_ASEAN",
+          "name": "ASEAN Bluefield Sites",
+          "description": "As the proportion of wind and solar photovoltaics (PV) in an electrical grid extends into the 50-100% range a combination of additional long-distance high voltage transmission, demand management and local storage is required for stability. Pumped Hydro Energy Storage (PHES) constitutes 97% of electricity storage worldwide because of its low cost.<p>The <a href='http://re100.eng.anu.edu.au/global'>RE100 Group ANU</a> found about 530,000 potentially feasible PHES sites with storage potential of about 22 million Gigawatt-hours (GWh) by using geographic information system (GIS) analysis. This is about one hundred times greater than required to support a 100% global renewable electricity system. Brownfield sites (existing reservoirs, old mining sites) will be included in a future analysis.</p>This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>Potential sites for off-river PHES are identified using GIS algorithms with defined search criteria. The surveyed latitude range is up to 60 degrees north and south. Each identified site comprises an upper and lower reservoir pair plus a hypothetical tunnel route between the reservoirs, and includes data such as latitude, longitude, altitude, head, slope, water volume, water area, rock volume, dam wall length, water/rock ratio, energy storage potential and approximate relative cost (categories A-E).</p><p>Wall heights are adjusted for each reservoir in a pair to yield equal water volumes to achieve the targeted energy storage. Energy (= head * usable volume * g * efficiency) and storage-length combinations are provided in Table 1. The approximate number of people that a reservoirs could service for a 100% renewable electricity grid is listed in the third line.</p><style>  table, th, td {    border: 1px solid black;    padding: 5px;    text-align: center;  }</style><center><table>  <tr>   <th>Energy</th> <th>Duration</th> <th>Millions of people</th> </tr> <tr>   <th>2 GWh</th> <td>6 hours</td> <td>0.1</td>   </tr>  <tr>    <th>5 GWh</th> <td>18 hours</td> <td>0.25</td>   </tr>  <tr>    <th>15 GWh</th> <td>18 hours</td> <td>0.75</td>   </tr>  <tr>    <th>50 GWh</th> <td>50 hours</td> <td>2.5</td>   </tr>  <tr>    <th>150 GWh</th> <td>50 hours</td> <td>7.5</td>   </tr>  <tr>    <th>500 GWh</th> <td>168 hours</td> <td>25</td>   </tr>  <tr>    <th>1500 GWh</th> <td>504 hours</td> <td>75</td>   </tr> </table></center><p>Virtually all upper reservoirs are away from rivers, and none intrude on protected area or urban areas listed in the databases that we use below.  There may be local constraints that prevent use of a particular site that is not reflected in these databases. Please refer to the ANU 100% Renewable Energy website for additional information: http://re100.eng.anu.edu.au/global</p>",
+          "members": [
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 1500 GWh of electricity which will discharge over 504 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 75 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "ASEAN Bluefield 1500GWh 504h",
+              "id": "ASEAN_Bluefield_1500GWh_504h",
+              "layers": "1500gwh_504h",
+              "url": "https://re100.anu.edu.au/geoserver/asean_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 150 GWh of electricity which will discharge over 50 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 7.5 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "ASEAN Bluefield 150GWh 50h",
+              "id": "ASEAN_Bluefield_150GWh_50h",
+              "layers": "150gwh_50h",
+              "url": "https://re100.anu.edu.au/geoserver/asean_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 15 GWh of electricity which will discharge over 18 hours yielding 0.8 GW of power. Each pair of reservoirs would provide sufficient energy for 0.75 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "ASEAN Bluefield 15GWh 18h",
+              "id": "ASEAN_Bluefield_15GWh_18h",
+              "layers": "15gwh_18h",
+              "url": "https://re100.anu.edu.au/geoserver/asean_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 2 GWh of electricity which will discharge over 6 hours yielding 0.3 GW of power. Each pair of reservoirs would provide sufficient energy for 0.1 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "ASEAN Bluefield 2GWh 6h",
+              "id": "ASEAN_Bluefield_2.0GWh_6h",
+              "layers": "2gwh_6h",
+              "url": "https://re100.anu.edu.au/geoserver/asean_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 5 GWh of electricity which will discharge over 18 hours yielding 0.3 GW of power. Each pair of reservoirs would provide sufficient energy for 0.25 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "ASEAN Bluefield 5GWh 18h",
+              "id": "ASEAN_Bluefield_5.0GWh_18h",
+              "layers": "5gwh_18h",
+              "url": "https://re100.anu.edu.au/geoserver/asean_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 500 GWh of electricity which will discharge over 168 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 25 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "ASEAN Bluefield 500GWh 168h",
+              "id": "ASEAN_Bluefield_500GWh_168h",
+              "layers": "500gwh_168h",
+              "url": "https://re100.anu.edu.au/geoserver/asean_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 50 GWh of electricity which will discharge over 50 hours yielding 1.0 GW of power. Each pair of reservoirs would provide sufficient energy for 2.5 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "ASEAN Bluefield 50GWh 50h",
+              "id": "ASEAN_Bluefield_50GWh_50h",
+              "layers": "50gwh_50h",
+              "url": "https://re100.anu.edu.au/geoserver/asean_bluefield/wms"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "Bluefield_Timor-Leste",
+          "name": "Timor-Leste Bluefield Sites",
+          "description": "As the proportion of wind and solar photovoltaics (PV) in an electrical grid extends into the 50-100% range a combination of additional long-distance high voltage transmission, demand management and local storage is required for stability. Pumped Hydro Energy Storage (PHES) constitutes 97% of electricity storage worldwide because of its low cost.<p>The <a href='http://re100.eng.anu.edu.au/global'>RE100 Group ANU</a> found about 530,000 potentially feasible PHES sites with storage potential of about 22 million Gigawatt-hours (GWh) by using geographic information system (GIS) analysis. This is about one hundred times greater than required to support a 100% global renewable electricity system. Brownfield sites (existing reservoirs, old mining sites) will be included in a future analysis.</p>This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>Potential sites for off-river PHES are identified using GIS algorithms with defined search criteria. The surveyed latitude range is up to 60 degrees north and south. Each identified site comprises an upper and lower reservoir pair plus a hypothetical tunnel route between the reservoirs, and includes data such as latitude, longitude, altitude, head, slope, water volume, water area, rock volume, dam wall length, water/rock ratio, energy storage potential and approximate relative cost (categories A-E).</p><p>Wall heights are adjusted for each reservoir in a pair to yield equal water volumes to achieve the targeted energy storage. Energy (= head * usable volume * g * efficiency) and storage-length combinations are provided in Table 1. The approximate number of people that a reservoirs could service for a 100% renewable electricity grid is listed in the third line.</p><style>  table, th, td {    border: 1px solid black;    padding: 5px;    text-align: center;  }</style><center><table>  <tr>   <th>Energy</th> <th>Duration</th> <th>Millions of people</th> </tr> <tr>   <th>2 GWh</th> <td>6 hours</td> <td>0.1</td>   </tr>  <tr>    <th>5 GWh</th> <td>18 hours</td> <td>0.25</td>   </tr>  <tr>    <th>15 GWh</th> <td>18 hours</td> <td>0.75</td>   </tr>  <tr>    <th>50 GWh</th> <td>50 hours</td> <td>2.5</td>   </tr>  <tr>    <th>150 GWh</th> <td>50 hours</td> <td>7.5</td>   </tr>  <tr>    <th>500 GWh</th> <td>168 hours</td> <td>25</td>   </tr>  <tr>    <th>1500 GWh</th> <td>504 hours</td> <td>75</td>   </tr> </table></center><p>Virtually all upper reservoirs are away from rivers, and none intrude on protected area or urban areas listed in the databases that we use below.  There may be local constraints that prevent use of a particular site that is not reflected in these databases. Please refer to the ANU 100% Renewable Energy website for additional information: http://re100.eng.anu.edu.au/global</p>",
+          "members": [
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 1500 GWh of electricity which will discharge over 504 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 75 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Timor-Leste Bluefield 1500GWh 504h",
+              "id": "Timor-Leste_Bluefield_1500GWh_504h",
+              "layers": "1500gwh_504h",
+              "url": "https://re100.anu.edu.au/geoserver/timor-leste_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 150 GWh of electricity which will discharge over 50 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 7.5 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Timor-Leste Bluefield 150GWh 50h",
+              "id": "Timor-Leste_Bluefield_150GWh_50h",
+              "layers": "150gwh_50h",
+              "url": "https://re100.anu.edu.au/geoserver/timor-leste_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 15 GWh of electricity which will discharge over 18 hours yielding 0.8 GW of power. Each pair of reservoirs would provide sufficient energy for 0.75 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Timor-Leste Bluefield 15GWh 18h",
+              "id": "Timor-Leste_Bluefield_15GWh_18h",
+              "layers": "15gwh_18h",
+              "url": "https://re100.anu.edu.au/geoserver/timor-leste_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 2 GWh of electricity which will discharge over 6 hours yielding 0.3 GW of power. Each pair of reservoirs would provide sufficient energy for 0.1 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Timor-Leste Bluefield 2GWh 6h",
+              "id": "Timor-Leste_Bluefield_2.0GWh_6h",
+              "layers": "2gwh_6h",
+              "url": "https://re100.anu.edu.au/geoserver/timor-leste_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 5 GWh of electricity which will discharge over 18 hours yielding 0.3 GW of power. Each pair of reservoirs would provide sufficient energy for 0.25 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Timor-Leste Bluefield 5GWh 18h",
+              "id": "Timor-Leste_Bluefield_5.0GWh_18h",
+              "layers": "5gwh_18h",
+              "url": "https://re100.anu.edu.au/geoserver/timor-leste_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 500 GWh of electricity which will discharge over 168 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 25 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Timor-Leste Bluefield 500GWh 168h",
+              "id": "Timor-Leste_Bluefield_500GWh_168h",
+              "layers": "500gwh_168h",
+              "url": "https://re100.anu.edu.au/geoserver/timor-leste_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 50 GWh of electricity which will discharge over 50 hours yielding 1.0 GW of power. Each pair of reservoirs would provide sufficient energy for 2.5 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Timor-Leste Bluefield 50GWh 50h",
+              "id": "Timor-Leste_Bluefield_50GWh_50h",
+              "layers": "50gwh_50h",
+              "url": "https://re100.anu.edu.au/geoserver/timor-leste_bluefield/wms"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "Bluefield_US",
+          "name": "US Bluefield Sites",
+          "description": "As the proportion of wind and solar photovoltaics (PV) in an electrical grid extends into the 50-100% range a combination of additional long-distance high voltage transmission, demand management and local storage is required for stability. Pumped Hydro Energy Storage (PHES) constitutes 97% of electricity storage worldwide because of its low cost.<p>The <a href='http://re100.eng.anu.edu.au/global'>RE100 Group ANU</a> found about 530,000 potentially feasible PHES sites with storage potential of about 22 million Gigawatt-hours (GWh) by using geographic information system (GIS) analysis. This is about one hundred times greater than required to support a 100% global renewable electricity system. Brownfield sites (existing reservoirs, old mining sites) will be included in a future analysis.</p>This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>Potential sites for off-river PHES are identified using GIS algorithms with defined search criteria. The surveyed latitude range is up to 60 degrees north and south. Each identified site comprises an upper and lower reservoir pair plus a hypothetical tunnel route between the reservoirs, and includes data such as latitude, longitude, altitude, head, slope, water volume, water area, rock volume, dam wall length, water/rock ratio, energy storage potential and approximate relative cost (categories A-E).</p><p>Wall heights are adjusted for each reservoir in a pair to yield equal water volumes to achieve the targeted energy storage. Energy (= head * usable volume * g * efficiency) and storage-length combinations are provided in Table 1. The approximate number of people that a reservoirs could service for a 100% renewable electricity grid is listed in the third line.</p><style>  table, th, td {    border: 1px solid black;    padding: 5px;    text-align: center;  }</style><center><table>  <tr>   <th>Energy</th> <th>Duration</th> <th>Millions of people</th> </tr> <tr>   <th>2 GWh</th> <td>6 hours</td> <td>0.1</td>   </tr>  <tr>    <th>5 GWh</th> <td>18 hours</td> <td>0.25</td>   </tr>  <tr>    <th>15 GWh</th> <td>18 hours</td> <td>0.75</td>   </tr>  <tr>    <th>50 GWh</th> <td>50 hours</td> <td>2.5</td>   </tr>  <tr>    <th>150 GWh</th> <td>50 hours</td> <td>7.5</td>   </tr>  <tr>    <th>500 GWh</th> <td>168 hours</td> <td>25</td>   </tr>  <tr>    <th>1500 GWh</th> <td>504 hours</td> <td>75</td>   </tr> </table></center><p>Virtually all upper reservoirs are away from rivers, and none intrude on protected area or urban areas listed in the databases that we use below.  There may be local constraints that prevent use of a particular site that is not reflected in these databases. Please refer to the ANU 100% Renewable Energy website for additional information: http://re100.eng.anu.edu.au/global</p>",
+          "members": [
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 1500 GWh of electricity which will discharge over 504 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 75 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "US Bluefield 1500GWh 504h",
+              "id": "US_Bluefield_1500GWh_504h",
+              "layers": "1500gwh_504h",
+              "url": "https://re100.anu.edu.au/geoserver/us_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 150 GWh of electricity which will discharge over 50 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 7.5 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "US Bluefield 150GWh 50h",
+              "id": "US_Bluefield_150GWh_50h",
+              "layers": "150gwh_50h",
+              "url": "https://re100.anu.edu.au/geoserver/us_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 15 GWh of electricity which will discharge over 18 hours yielding 0.8 GW of power. Each pair of reservoirs would provide sufficient energy for 0.75 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "US Bluefield 15GWh 18h",
+              "id": "US_Bluefield_15GWh_18h",
+              "layers": "15gwh_18h",
+              "url": "https://re100.anu.edu.au/geoserver/us_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 2 GWh of electricity which will discharge over 6 hours yielding 0.3 GW of power. Each pair of reservoirs would provide sufficient energy for 0.1 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "US Bluefield 2GWh 6h",
+              "id": "US_Bluefield_2.0GWh_6h",
+              "layers": "2gwh_6h",
+              "url": "https://re100.anu.edu.au/geoserver/us_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 5 GWh of electricity which will discharge over 18 hours yielding 0.3 GW of power. Each pair of reservoirs would provide sufficient energy for 0.25 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "US Bluefield 5GWh 18h",
+              "id": "US_Bluefield_5.0GWh_18h",
+              "layers": "5gwh_18h",
+              "url": "https://re100.anu.edu.au/geoserver/us_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 500 GWh of electricity which will discharge over 168 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 25 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "US Bluefield 500GWh 168h",
+              "id": "US_Bluefield_500GWh_168h",
+              "layers": "500gwh_168h",
+              "url": "https://re100.anu.edu.au/geoserver/us_bluefield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 50 GWh of electricity which will discharge over 50 hours yielding 1.0 GW of power. Each pair of reservoirs would provide sufficient energy for 2.5 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "US Bluefield 50GWh 50h",
+              "id": "US_Bluefield_50GWh_50h",
+              "layers": "50gwh_50h",
+              "url": "https://re100.anu.edu.au/geoserver/us_bluefield/wms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transmission",
+      "type": "group",
+      "name": "Transmission",
+      "description": "",
+      "members": [
+        {
+          "type": "wms",
+          "info": [
+            {
+              "name": "Description",
+              "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+            },
+            {
+              "name": "Disclaimer",
+              "content": ""
+            },
+            {
+              "name": "Access and acknowledgements",
+              "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+            }
+          ],
+          "infoSectionOrder": [
+            "Disclaimer",
+            "Description",
+            "Access and acknowledgements"
+          ],
+          "opacity": 1,
+          "featureInfoTemplate": {
+            "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+          },
+          "tileErrorHandlingOptions": {
+            "ignoreUnknownTileErrors": true
+          },
+          "name": "Australia Transmission",
+          "id": "australia_transmission",
+          "layers": "heat_map_transmission",
+          "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+        }
+      ]
+    },
+    {
+      "id": "heatmaps",
+      "type": "group",
+      "name": "Heatmaps",
+      "description": "\nSolar and wind play major roles in decarbonising the energy system. But where are the best sites?\n\nIn our high-resolution heat maps, an indicative cost of electricity (in AUD/MWh) is calculated for each pixel (1km x 1km for solar and 250m x 250m for wind), comprising the cost of energy from a solar/wind farm PLUS an associated powerline connecting the solar/wind farm to the existing and planned high voltage transmission network.\n\nAccess to transmission is currently the largest constraint for solar/wind farms. Heat maps identify the potential of all prospective areas close to the transmission network and are much more useful than solar and wind data alone.\n\nOur heat maps provide detailed qualitative and quantitative information about prospective places for solar and wind farms. They balance knowledge between developers and landholders. They empower landholders and local Government to identify prospective area and facilitate collective bargaining with developers.\n\nThe maps use colours to show the lowest indicative costs for wind or solar. The example below shows the area around Tamworth for the low-cost, overhead transmission line scenario for solar farms. The lowest indicative cost is in red, pink shows the second lowest costs, and the unsuitable areas within urban areas and the surrounding National Parks are shown in green.\n",
+      "members": [
+        {
+          "id": "solar",
+          "type": "group",
+          "name": "Solar",
+          "description": "\nSolar and wind play major roles in decarbonising the energy system. But where are the best sites?\n\nIn our high-resolution heat maps, an indicative cost of electricity (in AUD/MWh) is calculated for each pixel (1km x 1km for solar and 250m x 250m for wind), comprising the cost of energy from a solar/wind farm PLUS an associated powerline connecting the solar/wind farm to the existing and planned high voltage transmission network.\n\nAccess to transmission is currently the largest constraint for solar/wind farms. Heat maps identify the potential of all prospective areas close to the transmission network and are much more useful than solar and wind data alone.\n\nOur heat maps provide detailed qualitative and quantitative information about prospective places for solar and wind farms. They balance knowledge between developers and landholders. They empower landholders and local Government to identify prospective area and facilitate collective bargaining with developers.\n\nThe maps use colours to show the lowest indicative costs for wind or solar. The example below shows the area around Tamworth for the low-cost, overhead transmission line scenario for solar farms. The lowest indicative cost is in red, pink shows the second lowest costs, and the unsuitable areas within urban areas and the surrounding National Parks are shown in green.\n",
+          "members": [
+            {
+              "type": "group",
+              "id": "solar_australia",
+              "name": "Australia",
+              "description": "\nSolar and wind play major roles in decarbonising the energy system. But where are the best sites?\n\nIn our high-resolution heat maps, an indicative cost of electricity (in AUD/MWh) is calculated for each pixel (1km x 1km for solar and 250m x 250m for wind), comprising the cost of energy from a solar/wind farm PLUS an associated powerline connecting the solar/wind farm to the existing and planned high voltage transmission network.\n\nAccess to transmission is currently the largest constraint for solar/wind farms. Heat maps identify the potential of all prospective areas close to the transmission network and are much more useful than solar and wind data alone.\n\nOur heat maps provide detailed qualitative and quantitative information about prospective places for solar and wind farms. They balance knowledge between developers and landholders. They empower landholders and local Government to identify prospective area and facilitate collective bargaining with developers.\n\nThe maps use colours to show the lowest indicative costs for wind or solar. The example below shows the area around Tamworth for the low-cost, overhead transmission line scenario for solar farms. The lowest indicative cost is in red, pink shows the second lowest costs, and the unsuitable areas within urban areas and the surrounding National Parks are shown in green.\n",
+              "members": [
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "Australia solar overhead low-cost",
+                  "id": "australia_overhead_solar_low-cost_heatmap",
+                  "layers": "australia_overhead_solar_low-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                },
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "Australia solar overhead medium-cost",
+                  "id": "australia_overhead_solar_medium-cost_heatmap",
+                  "layers": "australia_overhead_solar_medium-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                },
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "Australia solar overhead high-cost",
+                  "id": "australia_overhead_solar_high-cost_heatmap",
+                  "layers": "australia_overhead_solar_high-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                },
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "Australia solar underground low-cost",
+                  "id": "australia_underground_solar_low-cost_heatmap",
+                  "layers": "australia_underground_solar_low-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                },
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "Australia solar underground medium-cost",
+                  "id": "australia_underground_solar_medium-cost_heatmap",
+                  "layers": "australia_underground_solar_medium-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                },
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "Australia solar underground high-cost",
+                  "id": "australia_underground_solar_high-cost_heatmap",
+                  "layers": "australia_underground_solar_high-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "id": "solar_tas",
+              "name": "TAS",
+              "description": "\nSolar and wind play major roles in decarbonising the energy system. But where are the best sites?\n\nIn our high-resolution heat maps, an indicative cost of electricity (in AUD/MWh) is calculated for each pixel (1km x 1km for solar and 250m x 250m for wind), comprising the cost of energy from a solar/wind farm PLUS an associated powerline connecting the solar/wind farm to the existing and planned high voltage transmission network.\n\nAccess to transmission is currently the largest constraint for solar/wind farms. Heat maps identify the potential of all prospective areas close to the transmission network and are much more useful than solar and wind data alone.\n\nOur heat maps provide detailed qualitative and quantitative information about prospective places for solar and wind farms. They balance knowledge between developers and landholders. They empower landholders and local Government to identify prospective area and facilitate collective bargaining with developers.\n\nThe maps use colours to show the lowest indicative costs for wind or solar. The example below shows the area around Tamworth for the low-cost, overhead transmission line scenario for solar farms. The lowest indicative cost is in red, pink shows the second lowest costs, and the unsuitable areas within urban areas and the surrounding National Parks are shown in green.\n",
+              "members": [
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "TAS solar overhead low-cost",
+                  "id": "tas_overhead_solar_low-cost_heatmap",
+                  "layers": "tas_overhead_solar_low-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wind",
+          "type": "group",
+          "name": "Wind",
+          "description": "\nSolar and wind play major roles in decarbonising the energy system. But where are the best sites?\n\nIn our high-resolution heat maps, an indicative cost of electricity (in AUD/MWh) is calculated for each pixel (1km x 1km for solar and 250m x 250m for wind), comprising the cost of energy from a solar/wind farm PLUS an associated powerline connecting the solar/wind farm to the existing and planned high voltage transmission network.\n\nAccess to transmission is currently the largest constraint for solar/wind farms. Heat maps identify the potential of all prospective areas close to the transmission network and are much more useful than solar and wind data alone.\n\nOur heat maps provide detailed qualitative and quantitative information about prospective places for solar and wind farms. They balance knowledge between developers and landholders. They empower landholders and local Government to identify prospective area and facilitate collective bargaining with developers.\n\nThe maps use colours to show the lowest indicative costs for wind or solar. The example below shows the area around Tamworth for the low-cost, overhead transmission line scenario for solar farms. The lowest indicative cost is in red, pink shows the second lowest costs, and the unsuitable areas within urban areas and the surrounding National Parks are shown in green.\n",
+          "members": [
+            {
+              "type": "group",
+              "id": "wind_australia",
+              "name": "Australia",
+              "description": "\nSolar and wind play major roles in decarbonising the energy system. But where are the best sites?\n\nIn our high-resolution heat maps, an indicative cost of electricity (in AUD/MWh) is calculated for each pixel (1km x 1km for solar and 250m x 250m for wind), comprising the cost of energy from a solar/wind farm PLUS an associated powerline connecting the solar/wind farm to the existing and planned high voltage transmission network.\n\nAccess to transmission is currently the largest constraint for solar/wind farms. Heat maps identify the potential of all prospective areas close to the transmission network and are much more useful than solar and wind data alone.\n\nOur heat maps provide detailed qualitative and quantitative information about prospective places for solar and wind farms. They balance knowledge between developers and landholders. They empower landholders and local Government to identify prospective area and facilitate collective bargaining with developers.\n\nThe maps use colours to show the lowest indicative costs for wind or solar. The example below shows the area around Tamworth for the low-cost, overhead transmission line scenario for solar farms. The lowest indicative cost is in red, pink shows the second lowest costs, and the unsuitable areas within urban areas and the surrounding National Parks are shown in green.\n",
+              "members": [
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "Australia wind overhead low-cost",
+                  "id": "australia_overhead_wind_low-cost_heatmap",
+                  "layers": "australia_overhead_wind_low-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                },
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "Australia wind overhead medium-cost",
+                  "id": "australia_overhead_wind_medium-cost_heatmap",
+                  "layers": "australia_overhead_wind_medium-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                },
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "Australia wind overhead high-cost",
+                  "id": "australia_overhead_wind_high-cost_heatmap",
+                  "layers": "australia_overhead_wind_high-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                },
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "Australia wind underground low-cost",
+                  "id": "australia_underground_wind_low-cost_heatmap",
+                  "layers": "australia_underground_wind_low-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                },
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "Australia wind underground medium-cost",
+                  "id": "australia_underground_wind_medium-cost_heatmap",
+                  "layers": "australia_underground_wind_medium-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                },
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "Australia wind underground high-cost",
+                  "id": "australia_underground_wind_high-cost_heatmap",
+                  "layers": "australia_underground_wind_high-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "id": "wind_tas",
+              "name": "TAS",
+              "description": "\nSolar and wind play major roles in decarbonising the energy system. But where are the best sites?\n\nIn our high-resolution heat maps, an indicative cost of electricity (in AUD/MWh) is calculated for each pixel (1km x 1km for solar and 250m x 250m for wind), comprising the cost of energy from a solar/wind farm PLUS an associated powerline connecting the solar/wind farm to the existing and planned high voltage transmission network.\n\nAccess to transmission is currently the largest constraint for solar/wind farms. Heat maps identify the potential of all prospective areas close to the transmission network and are much more useful than solar and wind data alone.\n\nOur heat maps provide detailed qualitative and quantitative information about prospective places for solar and wind farms. They balance knowledge between developers and landholders. They empower landholders and local Government to identify prospective area and facilitate collective bargaining with developers.\n\nThe maps use colours to show the lowest indicative costs for wind or solar. The example below shows the area around Tamworth for the low-cost, overhead transmission line scenario for solar farms. The lowest indicative cost is in red, pink shows the second lowest costs, and the unsuitable areas within urban areas and the surrounding National Parks are shown in green.\n",
+              "members": [
+                {
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Description",
+                      "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                    },
+                    {
+                      "name": "Disclaimer",
+                      "content": "None of the solar or wind sites discussed in this study have been the subject of any other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy. The publicly available datasets used for this work contain inaccuracies \u2013 results should be viewed as indicative.\n\nThere has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas (which are marked as \u201cUnsuitable\u201d and assigned a value of 0 in the maps), and no discussions with land owners and managers. The heat maps do not imply any rights for development at any location. Accuracy of the sites depends on the accuracy of the source data. The indicative costs are assumed to be constant within a pixel, which is 1km x 1km for solar heat maps and 250m x 250m for wind heat maps. There may be pixels that are not marked as \u201cUnsuitable\u201d in the heat maps but fall into protected areas or urban areas that are not identified by the source data.\n\nOnly transmission lines with rating 275kV and higher were included except for Tasmania (220 kV).\nTransmission constraints were not included in the study. Substation costs were not included in\nindicative costs."
+                    },
+                    {
+                      "name": "Access and acknowledgements",
+                      "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                    }
+                  ],
+                  "infoSectionOrder": [
+                    "Disclaimer",
+                    "Description",
+                    "Access and acknowledgements"
+                  ],
+                  "opacity": 0.7,
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true
+                  },
+                  "name": "TAS wind overhead low-cost",
+                  "id": "tas_overhead_wind_low-cost_heatmap",
+                  "layers": "tas_overhead_wind_low-cost_heatmap",
+                  "url": "https://re100.anu.edu.au/geoserver/heatmaps/wms"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Brownfield",
+      "type": "group",
+      "name": "Brownfield",
+      "description": "As the proportion of wind and solar photovoltaics (PV) in an electrical grid extends into the 50-100% range a combination of additional long-distance high voltage transmission, demand management and local storage is required for stability. Pumped Hydro Energy Storage (PHES) constitutes 97% of electricity storage worldwide because of its low cost.<p>The <a href='http://re100.eng.anu.edu.au/global'>RE100 Group ANU</a> found about 530,000 potentially feasible PHES sites with storage potential of about 22 million Gigawatt-hours (GWh) by using geographic information system (GIS) analysis. This is about one hundred times greater than required to support a 100% global renewable electricity system. Brownfield sites (existing reservoirs, old mining sites) will be included in a future analysis.</p>This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>Potential sites for off-river PHES are identified using GIS algorithms with defined search criteria. The surveyed latitude range is up to 60 degrees north and south. Each identified site comprises an upper and lower reservoir pair plus a hypothetical tunnel route between the reservoirs, and includes data such as latitude, longitude, altitude, head, slope, water volume, water area, rock volume, dam wall length, water/rock ratio, energy storage potential and approximate relative cost (categories A-E).</p><p>Wall heights are adjusted for each reservoir in a pair to yield equal water volumes to achieve the targeted energy storage. Energy (= head * usable volume * g * efficiency) and storage-length combinations are provided in Table 1. The approximate number of people that a reservoirs could service for a 100% renewable electricity grid is listed in the third line.</p><style>  table, th, td {    border: 1px solid black;    padding: 5px;    text-align: center;  }</style><center><table>  <tr>   <th>Energy</th> <th>Duration</th> <th>Millions of people</th> </tr> <tr>   <th>2 GWh</th> <td>6 hours</td> <td>0.1</td>   </tr>  <tr>    <th>5 GWh</th> <td>18 hours</td> <td>0.25</td>   </tr>  <tr>    <th>15 GWh</th> <td>18 hours</td> <td>0.75</td>   </tr>  <tr>    <th>50 GWh</th> <td>50 hours</td> <td>2.5</td>   </tr>  <tr>    <th>150 GWh</th> <td>50 hours</td> <td>7.5</td>   </tr>  <tr>    <th>500 GWh</th> <td>168 hours</td> <td>25</td>   </tr>  <tr>    <th>1500 GWh</th> <td>504 hours</td> <td>75</td>   </tr> </table></center><p>Virtually all upper reservoirs are away from rivers, and none intrude on protected area or urban areas listed in the databases that we use below.  There may be local constraints that prevent use of a particular site that is not reflected in these databases. Please refer to the ANU 100% Renewable Energy website for additional information: http://re100.eng.anu.edu.au/global</p>",
+      "members": [
+        {
+          "type": "group",
+          "id": "Brownfield_ASEAN",
+          "name": "ASEAN Brownfield Sites",
+          "description": "As the proportion of wind and solar photovoltaics (PV) in an electrical grid extends into the 50-100% range a combination of additional long-distance high voltage transmission, demand management and local storage is required for stability. Pumped Hydro Energy Storage (PHES) constitutes 97% of electricity storage worldwide because of its low cost.<p>The <a href='http://re100.eng.anu.edu.au/global'>RE100 Group ANU</a> found about 530,000 potentially feasible PHES sites with storage potential of about 22 million Gigawatt-hours (GWh) by using geographic information system (GIS) analysis. This is about one hundred times greater than required to support a 100% global renewable electricity system. Brownfield sites (existing reservoirs, old mining sites) will be included in a future analysis.</p>This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>Potential sites for off-river PHES are identified using GIS algorithms with defined search criteria. The surveyed latitude range is up to 60 degrees north and south. Each identified site comprises an upper and lower reservoir pair plus a hypothetical tunnel route between the reservoirs, and includes data such as latitude, longitude, altitude, head, slope, water volume, water area, rock volume, dam wall length, water/rock ratio, energy storage potential and approximate relative cost (categories A-E).</p><p>Wall heights are adjusted for each reservoir in a pair to yield equal water volumes to achieve the targeted energy storage. Energy (= head * usable volume * g * efficiency) and storage-length combinations are provided in Table 1. The approximate number of people that a reservoirs could service for a 100% renewable electricity grid is listed in the third line.</p><style>  table, th, td {    border: 1px solid black;    padding: 5px;    text-align: center;  }</style><center><table>  <tr>   <th>Energy</th> <th>Duration</th> <th>Millions of people</th> </tr> <tr>   <th>2 GWh</th> <td>6 hours</td> <td>0.1</td>   </tr>  <tr>    <th>5 GWh</th> <td>18 hours</td> <td>0.25</td>   </tr>  <tr>    <th>15 GWh</th> <td>18 hours</td> <td>0.75</td>   </tr>  <tr>    <th>50 GWh</th> <td>50 hours</td> <td>2.5</td>   </tr>  <tr>    <th>150 GWh</th> <td>50 hours</td> <td>7.5</td>   </tr>  <tr>    <th>500 GWh</th> <td>168 hours</td> <td>25</td>   </tr>  <tr>    <th>1500 GWh</th> <td>504 hours</td> <td>75</td>   </tr> </table></center><p>Virtually all upper reservoirs are away from rivers, and none intrude on protected area or urban areas listed in the databases that we use below.  There may be local constraints that prevent use of a particular site that is not reflected in these databases. Please refer to the ANU 100% Renewable Energy website for additional information: http://re100.eng.anu.edu.au/global</p>",
+          "members": [
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 150 GWh of electricity which will discharge over 50 hours yielding 3.0 GW of power. Each pair of reservoirs would provide sufficient energy for 7.5 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "ASEAN Brownfield 150GWh 50h",
+              "id": "ASEAN_Brownfield_150GWh_50h",
+              "layers": "150gwh_50h",
+              "url": "https://re100.anu.edu.au/geoserver/asean_brownfield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 15 GWh of electricity which will discharge over 18 hours yielding 0.8 GW of power. Each pair of reservoirs would provide sufficient energy for 0.75 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "ASEAN Brownfield 15GWh 18h",
+              "id": "ASEAN_Brownfield_15GWh_18h",
+              "layers": "15gwh_18h",
+              "url": "https://re100.anu.edu.au/geoserver/asean_brownfield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 2 GWh of electricity which will discharge over 6 hours yielding 0.3 GW of power. Each pair of reservoirs would provide sufficient energy for 0.1 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "ASEAN Brownfield 2GWh 6h",
+              "id": "ASEAN_Brownfield_2.0GWh_6h",
+              "layers": "2gwh_6h",
+              "url": "https://re100.anu.edu.au/geoserver/asean_brownfield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 5 GWh of electricity which will discharge over 18 hours yielding 0.3 GW of power. Each pair of reservoirs would provide sufficient energy for 0.25 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "ASEAN Brownfield 5GWh 18h",
+              "id": "ASEAN_Brownfield_5.0GWh_18h",
+              "layers": "5gwh_18h",
+              "url": "https://re100.anu.edu.au/geoserver/asean_brownfield/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the Research School of Electrical, Energy and Materials Engineering at the Australia National University.  http://re100.eng.anu.edu.au<p>These sites will store 50 GWh of electricity which will discharge over 50 hours yielding 1.0 GW of power. Each pair of reservoirs would provide sufficient energy for 2.5 million people. "
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental, heritage and other studies, and it is not known whether any particular site would be suitable. The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.<p>There has been no investigation of land tenure apart from exclusion of some environmental areas and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations. Accuracy of the sites depends on the accuracy of the source data. There may be sites that fall into local protected areas or urban areas that are not identified by the source data.</p>"
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                },
+                {
+                  "name": "Source Data",
+                  "content": "Digital Terrain Model (DTM) https://earthexplorer.usgs.gov/ <p>World Database Protected Areas: https://www.protectedplanet.net/</p> <p>Urban extent:  HBASE http://sedac.ciesin.columbia.edu/data/set/ulandsat-hbase-v1/data-download</p> "
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements",
+                "Source Data"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "ASEAN Brownfield 50GWh 50h",
+              "id": "ASEAN_Brownfield_50GWh_50h",
+              "layers": "50gwh_50h",
+              "url": "https://re100.anu.edu.au/geoserver/asean_brownfield/wms"
             }
           ]
         }

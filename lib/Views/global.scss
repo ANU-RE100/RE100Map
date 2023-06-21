@@ -13,6 +13,24 @@ body {
       display: block;
     }
   }
+  // Buttons like "Share" within the map area.
+  .tjs-_buttons__btn--map {
+    background: $dark;
+    &:focus,
+    &:hover {
+      color: white;
+    }
+    font-size: 0.95rem;
+    line-height: 1.1;
+  }
+
+  .tjs-menu-button__btn--about-link span {
+    line-height: 1.1;
+  }
+
+  .tjs-menu-bar__menu-bar--workbenchClosed {
+    margin-left: 200px;
+  }
 
   // To customise the look of your Terria Map, uncomment this section and make changes to your heart's content
   // You will also want to uncomment and change values in lib/Styles/variables.scss
@@ -61,11 +79,11 @@ body {
 
     // All kinds of buttons in various screens
     .tjs-_buttons__btn {
-        &-primary { 
-            font-family: $font-base; 
+        &-primary {
+            font-family: $font-base;
         }
-        &:hover { 
-            color: $color-primary;             
+        &:hover {
+            color: $color-primary;
         }
     }
 
@@ -77,11 +95,11 @@ body {
 
     // Lat/lon buttons
     .tjs-legend__locationBar, .tjs-legend__distanceLegend {
-        
+
         background:$dark;
         color:white;
         &:hover,&:focus { background: $dark; color: white; }
-    
+
     }
 
     // Progress bar while datasets are loading
@@ -96,7 +114,7 @@ body {
     }
 
     .tjs-timeline__text-cell {
-        font-family: $font-base; 
+        font-family: $font-base;
     }
 
     .tjs-timeline__timeline {
@@ -140,15 +158,15 @@ body {
     .tjs-data-catalog-item__btn-catalog-item--is-previewed {
         ,&:focus {color: $color-primary; }
     }
-      // The tabs at the top 
-    .tjs-tabs__btn--tab {    
+      // The tabs at the top
+    .tjs-tabs__btn--tab {
         font-family:$font-base
     }
 
     .tjs-tabs__btn--selected {
         color:$color-primary-dark;
     }
-    .tjs-tabs__btn--tab:hover {    
+    .tjs-tabs__btn--tab:hover {
         color:$color-secondary;
     }
     */

@@ -35,11 +35,16 @@ export default function UserInterface(props) {
       <MenuLeft>
         {aboutButtonHrefUrl ? (
           <MenuItem
-            caption="About"
+            caption="RE100 Home"
             href={aboutButtonHrefUrl}
             key="about-link"
           />
         ) : null}
+        <MenuItem
+          caption="About Pumped Hydro"
+          href="https://re100.eng.anu.edu.au/pumped_hydro_atlas/"
+          key="phes-link"
+        />
         {relatedMaps && relatedMaps.length > 0 ? (
           <RelatedMaps relatedMaps={relatedMaps} />
         ) : null}

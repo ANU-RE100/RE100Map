@@ -61,7 +61,7 @@
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
       "",
-      "<a target=\"_blank\" href=\"https://re100.eng.anu.edu.au/\"><img src=\"images/re100-logo.png\" height=\"52\" title=\"ANU RE100\" /></a>",
+      "<a target=\"_blank\" href=\"https://re100.eng.anu.edu.au/\" style=\"margin: 0px -15px\"><img src=\"images/re100-logo.png\" title=\"ANU RE100\" /></a>",
       ""
     ],
     // Shown when things go wrong.

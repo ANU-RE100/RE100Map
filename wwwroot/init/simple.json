@@ -3984,7 +3984,7 @@
               "name": "Global Turkey 1500GWh 60h",
               "id": "Global_Turkey_1500GWh_60h",
               "layers": "1500gwh_60h",
-              "url": "https://re100.anu.edu.au/geoserver/global__turkey/wms"
+              "url": "https://re100.anu.edu.au/geoserver/global_turkey/wms"
             },
             {
               "type": "wms",

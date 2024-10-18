@@ -65,7 +65,7 @@
       ""
     ],
     // Shown when things go wrong.
-    "supportEmail": "ryan.stocks@anu.edu.au",
+    "supportEmail": "timothy.weber@anu.edu.au",
     // You probably shouldn't change this.
     "proj4ServiceBaseUrl": "proj4def/",
     // Or this

@@ -13,19 +13,19 @@ $font-pop: $font-base; // If you just want to use one font throughout, do this.
 // "color-secondary" should be a lighter color than "color-primary" but still readable contrasted with white.
 $color-primary: maroon;
 $color-secondary: hsl(60,80%,60%); // or: lighten($color-primary, 20%);
-
+*/
 // These variables set background panel colors
-$dark: hsl(0,30%,30%);
-$dark-with-overlay: hsl(0,30%,30%);;
-$dark-lighter: hsl(0,30%,50%);
+$dark: hsl(0, 30%, 30%);
+//$dark-with-overlay: hsl(0,30%,30%);;
+//$dark-lighter: hsl(0,30%,50%);
 
+/*
 // You might find it helpful to define these and use them.
 $color-primary-light:lighten($color-primary,10%);
 $color-primary-dark:darken($color-primary,10%);
 $dark-darker: hsl(0,30%,15%);
 */
 $logo-height: 90px;
-
 
 $focus-border-light-color: variables.$text-light;
 $focus-border-dark-color: variables.$text-dark;

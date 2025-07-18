@@ -23,6 +23,7 @@
     "url": "http://github.com/TerriaJS/TerriaMap"
   },
   "dependencies": {
+    "pretty-quick": "2.0.1",
     "terriajs-server": "^4.0.2"
   },
   "config": {
@@ -66,7 +67,6 @@
     "node-notifier": "^10.0.1",
     "plugin-error": "^2.0.1",
     "prettier": "2.7.1",
-    "pretty-quick": "^4.0.0",
     "prop-types": "^15.6.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

@@ -6400,7 +6400,8 @@
   "baseMaps": {
     "enabledBaseMaps": [
       "basemap-esri-world-imagery",
-      "basemap-natural-earth-II"
+      "basemap-natural-earth-II",
+      "basemap-openstreetmap"
     ],
     "defaultBaseMapId": "basemap-esri-world-imagery",
     "previewBaseMapId": "basemap-esri-world-imagery",

@@ -1,5 +1,5 @@
-@import "~terriajs-variables";
-@import "~terriajs/lib/Sass/global/global";
+@use "../Styles/variables.scss";
+@use "~terriajs/lib/Sass/global/global";
 
 body {
   margin: 0;
@@ -15,7 +15,7 @@ body {
   }
   // Buttons like "Share" within the map area.
   .tjs-_buttons__btn--map {
-    background: $dark;
+    background: variables.$dark;
     &:focus,
     &:hover {
       color: white;

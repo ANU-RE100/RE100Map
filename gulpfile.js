@@ -5,20 +5,13 @@
 "use strict";
 
 /*global require*/
-// Every module required-in here must be a `dependency` in package.json, not just a `devDependency`,
-// This matters if ever we have gulp tasks run from npm, especially post-install ones.
+// If gulp tasks are run in a post-install task modules required here must be be a `dependency`
+//  in package.json, not just a `devDependency`. This is not currently needed.
 var fs = require("fs");
 var gulp = require("gulp");
 var path = require("path");
 var PluginError = require("plugin-error");
-var minimist = require("minimist");
-
-var knownOptions = {
-  string: ["baseHref"],
-  default: { baseHref: "/" }
-};
-
-var options = minimist(process.argv.slice(2), knownOptions);
+var terriajsServerGulpTask = require("terriajs/buildprocess/terriajsServerGulpTask");
 
 var watchOptions = {
   interval: 1000
@@ -77,6 +70,12 @@ gulp.task("write-version", function (done) {
 
 gulp.task("render-index", function renderIndex(done) {
   var ejs = require("ejs");
+  var minimist = require("minimist");
+  // Arguments written in skewer-case can cause problems (unsure why), so stick to camelCase
+  var options = minimist(process.argv.slice(2), {
+    string: ["baseHref"],
+    default: { baseHref: "/" }
+  });
 
   var index = fs.readFileSync("wwwroot/index.ejs", "utf8");
   var indexResult = ejs.render(index, { baseHref: options.baseHref });
@@ -165,7 +164,7 @@ gulp.task("copy-terriajs-assets", function () {
   var destPath = path.resolve(__dirname, "wwwroot", "build", "TerriaJS");
 
   return gulp
-    .src([sourceGlob], { base: terriaWebRoot })
+    .src([sourceGlob], { base: terriaWebRoot, encoding: false })
     .pipe(gulp.dest(destPath));
 });
 
@@ -187,12 +186,9 @@ gulp.task(
 
 gulp.task("lint", function (done) {
   var runExternalModule = require("terriajs/buildprocess/runExternalModule");
-
-  runExternalModule("eslint/bin/eslint.js", [
-    "-c",
-    path.join(getPackageRoot("terriajs"), ".eslintrc"),
-    "--ignore-pattern",
-    "lib/ThirdParty",
+  const eslintDir = path.dirname(require.resolve("eslint/package.json"));
+  const eslintExecutable = path.join(eslintDir, "bin", "eslint.js");
+  runExternalModule(eslintExecutable, [
     "--max-warnings",
     "0",
     "index.js",
@@ -286,7 +282,15 @@ function checkForDuplicateCesium() {
   }
 }
 
+gulp.task("terriajs-server", terriajsServerGulpTask(3001));
+
 gulp.task("build", gulp.series("copy-terriajs-assets", "build-app"));
 gulp.task("release", gulp.series("copy-terriajs-assets", "release-app"));
 gulp.task("watch", gulp.parallel("watch-terriajs-assets", "watch-app"));
+// Run render-index before starting terriajs-server because terriajs-server won't
+//  start if index.html isn't present
+gulp.task(
+  "dev",
+  gulp.parallel(gulp.series("render-index", "terriajs-server"), "watch")
+);
 gulp.task("default", gulp.series("lint", "build"));

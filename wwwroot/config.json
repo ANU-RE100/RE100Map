@@ -8,13 +8,21 @@
     "aboutButtonHrefUrl": "https://re100.eng.anu.edu.au",
     "extraCreditLinks": [
       // Default credit links (shown at the bottom of the Cesium map)
-      /*{
+      {
         "text": "map.extraCreditLinks.dataAttribution",
         "url": "https://re100.eng.anu.edu.au/global/#access"
-      }*/
+      },
+      {
+        "text": "Privacy Policy",
+        "url": "https://policies.anu.edu.au/ppl/document/ANUP_001222"
+      },
+      {
+        "text": "map.extraCreditLinks.termsOfUse",
+        "url": "https://policies.anu.edu.au/ppl/document/ANUP_010007"
+      }
       //{ "text": "map.extraCreditLinks.disclaimer", "url": "https://re100.eng.anu.edu.au/global/#disclaimer" }
     ],
-    "hideTerriaLogo": true,
+    "hideTerriaLogo": false,
     "relatedMaps": null,
 
     "useCesiumIonTerrain": false,

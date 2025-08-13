@@ -3,7 +3,6 @@ node_modules/
 wwwroot_backup
 wwwroot/build/
 wwwroot/doc/
-wwwroot/index.html
 npm-debug.log
 version.js
 version.json

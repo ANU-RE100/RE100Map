@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="re100">
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">  <!-- Use Chrome Frame in IE -->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="description" content="A web map for the ANU RE100 group built on Terria Map">
+    <meta name="copyright" content="Copyright(c) 2023 Australian National University.  All rights reserved.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="icon" href="favicon.ico">
+    <meta name="msapplication-TileColor" content="#282D32">
+    <meta name="theme-color" content="#282D32">
+
+    <title>ANU RE100 Map</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0L10P5G22L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0L10P5G22L');
+    </script>
+
+    <!-- Leaflet -->
+    <script>L_PREFER_CANVAS = true;</script>
+</head>
+
+<body>
+
+<div id='ui'></div>
+  <script src="build/TerriaMap.js"></script>
+</body>
+</html>

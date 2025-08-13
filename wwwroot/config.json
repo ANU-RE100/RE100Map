@@ -13,12 +13,16 @@
         "url": "https://re100.eng.anu.edu.au/global/#access"
       },
       {
-        "text": "Privacy Policy",
+        "text": "Privacy policy",
         "url": "https://policies.anu.edu.au/ppl/document/ANUP_001222"
       },
       {
         "text": "map.extraCreditLinks.termsOfUse",
         "url": "https://policies.anu.edu.au/ppl/document/ANUP_010007"
+      },
+      {
+        "text": "Download data",
+        "url": "https://re100.anu.edu.au/shortlisting/"
       }
       //{ "text": "map.extraCreditLinks.disclaimer", "url": "https://re100.eng.anu.edu.au/global/#disclaimer" }
     ],

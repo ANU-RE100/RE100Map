@@ -1,21 +1,48 @@
+import { observer } from "mobx-react";
+import PropTypes from "prop-types";
+import React, { Suspense } from "react";
 import { createRoot } from "react-dom/client";
-import { flushSync } from "react-dom";
 import Variables from "../Styles/variables.scss";
-import UI from "./UserInterface";
+import "./global.scss";
+import { Loader } from "./Loader";
+import { terriaStore } from "./terriaStore";
 
-export default function renderUi(terria, allBaseMaps, viewState) {
-  const container = document.getElementById("ui");
-  const root = createRoot(container);
+// Lazy load the entire TerriaUserInterface component
+const LazyTerriaUserInterface = React.lazy(() =>
+  import("./UserInterface").then((module) => ({
+    default: module.TerriaUserInterface
+  }))
+);
 
-  // Ensure that the initial render is synchronous so there is no a white flash visible between loading and rendering
-  flushSync(() =>
-    root.render(
-      <UI
+const Root = observer(({ themeOverrides }) => {
+  const { terria, viewState, status } = terriaStore;
+
+  if (status === "loading") {
+    return <Loader />;
+  }
+
+  return (
+    <Suspense fallback={<Loader />}>
+      <LazyTerriaUserInterface
         terria={terria}
-        allBaseMaps={allBaseMaps}
         viewState={viewState}
-        themeOverrides={Variables}
+        themeOverrides={themeOverrides}
       />
-    )
+    </Suspense>
   );
-}
+});
+
+Root.propTypes = {
+  themeOverrides: PropTypes.object
+};
+
+export const renderUi = () => {
+  const container = document.getElementById("ui");
+  if (!container) {
+    console.error("Container element with id 'ui' not found.");
+    return;
+  }
+
+  const root = createRoot(container);
+  root.render(<Root themeOverrides={Variables} />);
+};

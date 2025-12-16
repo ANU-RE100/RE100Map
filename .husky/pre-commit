@@ -1,4 +1,11 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+# --- ensure nvm node is available for hooks ---
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+# If you have an .nvmrc, this will use it; otherwise it keeps your default nvm node
+nvm use --silent >/dev/null 2>&1 || true
+
 npx pretty-quick --staged

@@ -53,8 +53,7 @@
               ],
               "opacity": 1,
               "featureInfoTemplate": {
-                "name": "{{Index}}{{#Dam_volume}}: {{Stored_Ene}} GWh {{/Dam_volume}}",
-                "template": "<h3>{{#Dam_volume}}Reservoir:{{/Dam_volume}} {{^Dam_volume}}Dam wall:{{/Dam_volume}} {{Index}}</h3><table>{{#Dam_volume}}  <tr>    <th>Stored energy:</th>    <td>{{Stored_Ene}} GWh</td>  </tr>{{/Dam_volume}}  <tr>    <th>Elevation:</th>    <td>{{Elevation_}} metres</td>  </tr>{{#Dam_volume}}  <tr>    <th>Water area:</th>    <td>{{Water_area}} hectares</td>  </tr>  <tr>    <th>Reservoir volume:&nbsp;</th>    <td>{{Reservoir_}} gigalitres</td>  </tr>  <tr>    <th>Dam length:</th>    <td>{{Dam_length}} metres</td>  </tr>  <tr>    <th>Dam area:</th>    <td>{{Dam_area_h}} hectares</td>  </tr>  <tr>    <th>Dam volume:</th>    <td>{{Dam_volume}} gigalitres</td>  </tr>  <tr>    <th>Water to rock ratio:</th>    <td>{{Water_rock}}</td>  </tr>{{/Dam_volume}}</table>"
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
               },
               "tileErrorHandlingOptions": {
                 "ignoreUnknownTileErrors": true
@@ -6393,6 +6392,986 @@
           "id": "manual",
           "layers": "PVDEH_manual",
           "url": "https://re100.anu.edu.au/geoserver/pvdeh/wms"
+        }
+      ]
+    },
+    {
+      "id": "heatmaps_LGA",
+      "type": "group",
+      "name": "Heatmaps pixel-to-region",
+      "description": "Placeholder",
+      "members": [
+        {
+          "id": "lga_baseline",
+          "type": "group",
+          "name": "LGA level analysis baseline scenario",
+          "description": "",
+          "members": [
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Annual generation by LGA (baseline, high-solar)",
+              "id": "lga_baseline_solar",
+              "layers": "LGAs_100km_clip_high_solar,unsuitable_areas_V2,LGAs_unclipped_int,copper_plate,major_cities,premium_pumped_hydro",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Annual generation by LGA (baseline, high-wind)",
+              "id": "lga_baseline_wind",
+              "layers": "LGAs_100km_clip_high_wind,unsuitable_areas_V2,LGAs_unclipped_int,copper_plate,major_cities,premium_pumped_hydro",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "LGA boundaries",
+              "id": "lga_boundary_with_info",
+              "layers": "LGAs_unclipped_int",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Copper plate transmission network",
+              "id": "copper_plate",
+              "layers": "copper_plate",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Major cities",
+              "id": "lga_major_cities",
+              "layers": "major_cities",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Premimum pumped hydro sites",
+              "id": "lga_phes",
+              "layers": "premium_pumped_hydro",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Unsuitable areas",
+              "id": "unsuitable",
+              "layers": "unsuitable_areas_V2",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms"
+            }
+          ]
+        },
+        {
+          "id": "electorates",
+          "type": "group",
+          "name": "Federal electorate level analysis baseline scenario",
+          "description": "",
+          "members": [
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Annual generation by federal electorate (high-solar)",
+              "id": "electorate_solar",
+              "layers": "electorate_stat_solar",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Annual generation by federal electorate (high-wind)",
+              "id": "electorate_wind",
+              "layers": "electorate_stat_wind",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Federal electorate boundary",
+              "id": "electorate_boundary",
+              "layers": "electorate_boundary",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms"
+            }
+          ]
+        },
+        {
+          "id": "lga_by_HVAC",
+          "type": "group",
+          "name": "LGA level analysis with HVAC routes",
+          "description": "",
+          "members": [
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "HVAC northwest of Canberra (high-solar)",
+              "id": "HVAC_339_solar",
+              "layers": "HS_stat_339,unsuitable_areas_V2,LGA_boundary_339,Copperplate_339,major_cities,premium_pumped_hydro,point_caption2",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms?env=cap:Interactive%20LGA%20benefits%20map%20for%20sample%20HVAC%20lines.%0A%0ALGAs%20are%20coloured%20red%20to%20blue%2C%20representing%20expected%20annual%20generation%20from%20solar%20and%20wind%20in%20GWh%20%28redder%20is%20better%29.%0A%0AOnly%20areas%20within%20100%20km%20of%20the%20transmission%20backbone%20%28white%20line%29%20or%20the%20load%20centres%20%28yellow%20areas%29%20are%20coloured%2C%20as%20all%20solar%20and%20wind%20farms%20contributing%20to%20the%20modelled%20annual%20generation%20are%20within%20this%20range.%0A%0AGreen%20represents%20incompatible%20land%20%28national%20parks%2C%20forests%2C%20urban%29.%0A%0AToggle%20layers%20to%20compare%20the%20baseline%20%28no%20additional%20HVAC%29%20with%20a%20specific%20HVAC%20line%20%27on%27.%0A%0AClick%20any%20LGA%20to%20see%20detailed%20numbers%3A%0A%0A-%20HSGWH%3A%20Annual%20generation%20in%20GWh%20%28high-solar%20scenario%29.%0A%0A-%20HWGWH%3A%20Annual%20generation%20in%20GWh%20%28high-wind%20scenario%29.%0A%0A-%20CAPEX_B%3A%20Associated%20renewable%20investments%20%28AUD%20billions%29.%0A%0A-%20JCONS%3A%20Construction%20job-years%20created.%0A%0A-%20JOBS_OM%3A%20Operations%20and%20maintenance%20jobs%20created.%0A%0A-%20PAY_MPA%3A%20Annual%20hosting%20payment%20%28AUD%20millions%29.%0A%0A-%20%2A_B%3A%20The%20above%20without%20the%20HVAC%20%28baseline%20scenario%29."
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "HVAC northwest of Canberra (high-wind)",
+              "id": "HVAC_339_wind",
+              "layers": "HW_stat_339,unsuitable_areas_V2,LGA_boundary_339,Copperplate_339,major_cities,premium_pumped_hydro,point_caption2",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms?env=cap:Interactive%20LGA%20benefits%20map%20for%20sample%20HVAC%20lines.%0A%0ALGAs%20are%20coloured%20red%20to%20blue%2C%20representing%20expected%20annual%20generation%20from%20solar%20and%20wind%20in%20GWh%20%28redder%20is%20better%29.%0A%0AOnly%20areas%20within%20100%20km%20of%20the%20transmission%20backbone%20%28white%20line%29%20or%20the%20load%20centres%20%28yellow%20areas%29%20are%20coloured%2C%20as%20all%20solar%20and%20wind%20farms%20contributing%20to%20the%20modelled%20annual%20generation%20are%20within%20this%20range.%0A%0AGreen%20represents%20incompatible%20land%20%28national%20parks%2C%20forests%2C%20urban%29.%0A%0AToggle%20layers%20to%20compare%20the%20baseline%20%28no%20additional%20HVAC%29%20with%20a%20specific%20HVAC%20line%20%27on%27.%0A%0AClick%20any%20LGA%20to%20see%20detailed%20numbers%3A%0A%0A-%20HSGWH%3A%20Annual%20generation%20in%20GWh%20%28high-solar%20scenario%29.%0A%0A-%20HWGWH%3A%20Annual%20generation%20in%20GWh%20%28high-wind%20scenario%29.%0A%0A-%20CAPEX_B%3A%20Associated%20renewable%20investments%20%28AUD%20billions%29.%0A%0A-%20JCONS%3A%20Construction%20job-years%20created.%0A%0A-%20JOBS_OM%3A%20Operations%20and%20maintenance%20jobs%20created.%0A%0A-%20PAY_MPA%3A%20Annual%20hosting%20payment%20%28AUD%20millions%29.%0A%0A-%20%2A_B%3A%20The%20above%20without%20the%20HVAC%20%28baseline%20scenario%29."
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "HVAC north of Melbourne (high-solar)",
+              "id": "HVAC_353_solar",
+              "layers": "HS_stat_353,unsuitable_areas_V2,LGA_boundary_353,Copperplate_353,major_cities,premium_pumped_hydro,point_caption2",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms?env=cap:Interactive%20LGA%20benefits%20map%20for%20sample%20HVAC%20lines.%0A%0ALGAs%20are%20coloured%20red%20to%20blue%2C%20representing%20expected%20annual%20generation%20from%20solar%20and%20wind%20in%20GWh%20%28redder%20is%20better%29.%0A%0AOnly%20areas%20within%20100%20km%20of%20the%20transmission%20backbone%20%28white%20line%29%20or%20the%20load%20centres%20%28yellow%20areas%29%20are%20coloured%2C%20as%20all%20solar%20and%20wind%20farms%20contributing%20to%20the%20modelled%20annual%20generation%20are%20within%20this%20range.%0A%0AGreen%20represents%20incompatible%20land%20%28national%20parks%2C%20forests%2C%20urban%29.%0A%0AToggle%20layers%20to%20compare%20the%20baseline%20%28no%20additional%20HVAC%29%20with%20a%20specific%20HVAC%20line%20%27on%27.%0A%0AClick%20any%20LGA%20to%20see%20detailed%20numbers%3A%0A%0A-%20HSGWH%3A%20Annual%20generation%20in%20GWh%20%28high-solar%20scenario%29.%0A%0A-%20HWGWH%3A%20Annual%20generation%20in%20GWh%20%28high-wind%20scenario%29.%0A%0A-%20CAPEX_B%3A%20Associated%20renewable%20investments%20%28AUD%20billions%29.%0A%0A-%20JCONS%3A%20Construction%20job-years%20created.%0A%0A-%20JOBS_OM%3A%20Operations%20and%20maintenance%20jobs%20created.%0A%0A-%20PAY_MPA%3A%20Annual%20hosting%20payment%20%28AUD%20millions%29.%0A%0A-%20%2A_B%3A%20The%20above%20without%20the%20HVAC%20%28baseline%20scenario%29."
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "HVAC north of Melbourne (high-wind)",
+              "id": "HVAC_353_wind",
+              "layers": "HW_stat_353,unsuitable_areas_V2,LGA_boundary_353,Copperplate_353,major_cities,premium_pumped_hydro,point_caption2",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms?env=cap:Interactive%20LGA%20benefits%20map%20for%20sample%20HVAC%20lines.%0A%0ALGAs%20are%20coloured%20red%20to%20blue%2C%20representing%20expected%20annual%20generation%20from%20solar%20and%20wind%20in%20GWh%20%28redder%20is%20better%29.%0A%0AOnly%20areas%20within%20100%20km%20of%20the%20transmission%20backbone%20%28white%20line%29%20or%20the%20load%20centres%20%28yellow%20areas%29%20are%20coloured%2C%20as%20all%20solar%20and%20wind%20farms%20contributing%20to%20the%20modelled%20annual%20generation%20are%20within%20this%20range.%0A%0AGreen%20represents%20incompatible%20land%20%28national%20parks%2C%20forests%2C%20urban%29.%0A%0AToggle%20layers%20to%20compare%20the%20baseline%20%28no%20additional%20HVAC%29%20with%20a%20specific%20HVAC%20line%20%27on%27.%0A%0AClick%20any%20LGA%20to%20see%20detailed%20numbers%3A%0A%0A-%20HSGWH%3A%20Annual%20generation%20in%20GWh%20%28high-solar%20scenario%29.%0A%0A-%20HWGWH%3A%20Annual%20generation%20in%20GWh%20%28high-wind%20scenario%29.%0A%0A-%20CAPEX_B%3A%20Associated%20renewable%20investments%20%28AUD%20billions%29.%0A%0A-%20JCONS%3A%20Construction%20job-years%20created.%0A%0A-%20JOBS_OM%3A%20Operations%20and%20maintenance%20jobs%20created.%0A%0A-%20PAY_MPA%3A%20Annual%20hosting%20payment%20%28AUD%20millions%29.%0A%0A-%20%2A_B%3A%20The%20above%20without%20the%20HVAC%20%28baseline%20scenario%29."
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "HVAC northwest of Brisbane (high-solar)",
+              "id": "HVAC_440_solar",
+              "layers": "HS_stat_440,unsuitable_areas_V2,LGA_boundary_440,Copperplate_440,major_cities,premium_pumped_hydro,point_caption2",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms?env=cap:Interactive%20LGA%20benefits%20map%20for%20sample%20HVAC%20lines.%0A%0ALGAs%20are%20coloured%20red%20to%20blue%2C%20representing%20expected%20annual%20generation%20from%20solar%20and%20wind%20in%20GWh%20%28redder%20is%20better%29.%0A%0AOnly%20areas%20within%20100%20km%20of%20the%20transmission%20backbone%20%28white%20line%29%20or%20the%20load%20centres%20%28yellow%20areas%29%20are%20coloured%2C%20as%20all%20solar%20and%20wind%20farms%20contributing%20to%20the%20modelled%20annual%20generation%20are%20within%20this%20range.%0A%0AGreen%20represents%20incompatible%20land%20%28national%20parks%2C%20forests%2C%20urban%29.%0A%0AToggle%20layers%20to%20compare%20the%20baseline%20%28no%20additional%20HVAC%29%20with%20a%20specific%20HVAC%20line%20%27on%27.%0A%0AClick%20any%20LGA%20to%20see%20detailed%20numbers%3A%0A%0A-%20HSGWH%3A%20Annual%20generation%20in%20GWh%20%28high-solar%20scenario%29.%0A%0A-%20HWGWH%3A%20Annual%20generation%20in%20GWh%20%28high-wind%20scenario%29.%0A%0A-%20CAPEX_B%3A%20Associated%20renewable%20investments%20%28AUD%20billions%29.%0A%0A-%20JCONS%3A%20Construction%20job-years%20created.%0A%0A-%20JOBS_OM%3A%20Operations%20and%20maintenance%20jobs%20created.%0A%0A-%20PAY_MPA%3A%20Annual%20hosting%20payment%20%28AUD%20millions%29.%0A%0A-%20%2A_B%3A%20The%20above%20without%20the%20HVAC%20%28baseline%20scenario%29."
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "HVAC northwest of Brisbane (high-wind)",
+              "id": "HVAC_440_wind",
+              "layers": "HW_stat_440,unsuitable_areas_V2,LGA_boundary_440,Copperplate_440,major_cities,premium_pumped_hydro,point_caption2",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms?env=cap:Interactive%20LGA%20benefits%20map%20for%20sample%20HVAC%20lines.%0A%0ALGAs%20are%20coloured%20red%20to%20blue%2C%20representing%20expected%20annual%20generation%20from%20solar%20and%20wind%20in%20GWh%20%28redder%20is%20better%29.%0A%0AOnly%20areas%20within%20100%20km%20of%20the%20transmission%20backbone%20%28white%20line%29%20or%20the%20load%20centres%20%28yellow%20areas%29%20are%20coloured%2C%20as%20all%20solar%20and%20wind%20farms%20contributing%20to%20the%20modelled%20annual%20generation%20are%20within%20this%20range.%0A%0AGreen%20represents%20incompatible%20land%20%28national%20parks%2C%20forests%2C%20urban%29.%0A%0AToggle%20layers%20to%20compare%20the%20baseline%20%28no%20additional%20HVAC%29%20with%20a%20specific%20HVAC%20line%20%27on%27.%0A%0AClick%20any%20LGA%20to%20see%20detailed%20numbers%3A%0A%0A-%20HSGWH%3A%20Annual%20generation%20in%20GWh%20%28high-solar%20scenario%29.%0A%0A-%20HWGWH%3A%20Annual%20generation%20in%20GWh%20%28high-wind%20scenario%29.%0A%0A-%20CAPEX_B%3A%20Associated%20renewable%20investments%20%28AUD%20billions%29.%0A%0A-%20JCONS%3A%20Construction%20job-years%20created.%0A%0A-%20JOBS_OM%3A%20Operations%20and%20maintenance%20jobs%20created.%0A%0A-%20PAY_MPA%3A%20Annual%20hosting%20payment%20%28AUD%20millions%29.%0A%0A-%20%2A_B%3A%20The%20above%20without%20the%20HVAC%20%28baseline%20scenario%29."
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "HVAC northwest of Adelaide (high-solar)",
+              "id": "HVAC_99_solar",
+              "layers": "HS_stat_99,unsuitable_areas_V2,LGA_boundary_99,Copperplate_99,major_cities,premium_pumped_hydro,point_caption2",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms?env=cap:Interactive%20LGA%20benefits%20map%20for%20sample%20HVAC%20lines.%0A%0ALGAs%20are%20coloured%20red%20to%20blue%2C%20representing%20expected%20annual%20generation%20from%20solar%20and%20wind%20in%20GWh%20%28redder%20is%20better%29.%0A%0AOnly%20areas%20within%20100%20km%20of%20the%20transmission%20backbone%20%28white%20line%29%20or%20the%20load%20centres%20%28yellow%20areas%29%20are%20coloured%2C%20as%20all%20solar%20and%20wind%20farms%20contributing%20to%20the%20modelled%20annual%20generation%20are%20within%20this%20range.%0A%0AGreen%20represents%20incompatible%20land%20%28national%20parks%2C%20forests%2C%20urban%29.%0A%0AToggle%20layers%20to%20compare%20the%20baseline%20%28no%20additional%20HVAC%29%20with%20a%20specific%20HVAC%20line%20%27on%27.%0A%0AClick%20any%20LGA%20to%20see%20detailed%20numbers%3A%0A%0A-%20HSGWH%3A%20Annual%20generation%20in%20GWh%20%28high-solar%20scenario%29.%0A%0A-%20HWGWH%3A%20Annual%20generation%20in%20GWh%20%28high-wind%20scenario%29.%0A%0A-%20CAPEX_B%3A%20Associated%20renewable%20investments%20%28AUD%20billions%29.%0A%0A-%20JCONS%3A%20Construction%20job-years%20created.%0A%0A-%20JOBS_OM%3A%20Operations%20and%20maintenance%20jobs%20created.%0A%0A-%20PAY_MPA%3A%20Annual%20hosting%20payment%20%28AUD%20millions%29.%0A%0A-%20%2A_B%3A%20The%20above%20without%20the%20HVAC%20%28baseline%20scenario%29."
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "HVAC northwest of Adelaide (high-wind)",
+              "id": "HVAC_99_wind",
+              "layers": "HW_stat_99,unsuitable_areas_V2,LGA_boundary_99,Copperplate_99,major_cities,premium_pumped_hydro,point_caption2",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms?env=cap:Interactive%20LGA%20benefits%20map%20for%20sample%20HVAC%20lines.%0A%0ALGAs%20are%20coloured%20red%20to%20blue%2C%20representing%20expected%20annual%20generation%20from%20solar%20and%20wind%20in%20GWh%20%28redder%20is%20better%29.%0A%0AOnly%20areas%20within%20100%20km%20of%20the%20transmission%20backbone%20%28white%20line%29%20or%20the%20load%20centres%20%28yellow%20areas%29%20are%20coloured%2C%20as%20all%20solar%20and%20wind%20farms%20contributing%20to%20the%20modelled%20annual%20generation%20are%20within%20this%20range.%0A%0AGreen%20represents%20incompatible%20land%20%28national%20parks%2C%20forests%2C%20urban%29.%0A%0AToggle%20layers%20to%20compare%20the%20baseline%20%28no%20additional%20HVAC%29%20with%20a%20specific%20HVAC%20line%20%27on%27.%0A%0AClick%20any%20LGA%20to%20see%20detailed%20numbers%3A%0A%0A-%20HSGWH%3A%20Annual%20generation%20in%20GWh%20%28high-solar%20scenario%29.%0A%0A-%20HWGWH%3A%20Annual%20generation%20in%20GWh%20%28high-wind%20scenario%29.%0A%0A-%20CAPEX_B%3A%20Associated%20renewable%20investments%20%28AUD%20billions%29.%0A%0A-%20JCONS%3A%20Construction%20job-years%20created.%0A%0A-%20JOBS_OM%3A%20Operations%20and%20maintenance%20jobs%20created.%0A%0A-%20PAY_MPA%3A%20Annual%20hosting%20payment%20%28AUD%20millions%29.%0A%0A-%20%2A_B%3A%20The%20above%20without%20the%20HVAC%20%28baseline%20scenario%29."
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "HVAC Brisbane & Adelaide loop (high-solar)",
+              "id": "HVAC_999_solar",
+              "layers": "HS_stat_999,unsuitable_areas_V2,LGA_boundary_999,Copperplate_999,major_cities,premium_pumped_hydro,point_caption2",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms?env=cap:Interactive%20LGA%20benefits%20map%20for%20sample%20HVAC%20lines.%0A%0ALGAs%20are%20coloured%20red%20to%20blue%2C%20representing%20expected%20annual%20generation%20from%20solar%20and%20wind%20in%20GWh%20%28redder%20is%20better%29.%0A%0AOnly%20areas%20within%20100%20km%20of%20the%20transmission%20backbone%20%28white%20line%29%20or%20the%20load%20centres%20%28yellow%20areas%29%20are%20coloured%2C%20as%20all%20solar%20and%20wind%20farms%20contributing%20to%20the%20modelled%20annual%20generation%20are%20within%20this%20range.%0A%0AGreen%20represents%20incompatible%20land%20%28national%20parks%2C%20forests%2C%20urban%29.%0A%0AToggle%20layers%20to%20compare%20the%20baseline%20%28no%20additional%20HVAC%29%20with%20a%20specific%20HVAC%20line%20%27on%27.%0A%0AClick%20any%20LGA%20to%20see%20detailed%20numbers%3A%0A%0A-%20HSGWH%3A%20Annual%20generation%20in%20GWh%20%28high-solar%20scenario%29.%0A%0A-%20HWGWH%3A%20Annual%20generation%20in%20GWh%20%28high-wind%20scenario%29.%0A%0A-%20CAPEX_B%3A%20Associated%20renewable%20investments%20%28AUD%20billions%29.%0A%0A-%20JCONS%3A%20Construction%20job-years%20created.%0A%0A-%20JOBS_OM%3A%20Operations%20and%20maintenance%20jobs%20created.%0A%0A-%20PAY_MPA%3A%20Annual%20hosting%20payment%20%28AUD%20millions%29.%0A%0A-%20%2A_B%3A%20The%20above%20without%20the%20HVAC%20%28baseline%20scenario%29."
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "HVAC Brisbane & Adelaide loop (high-wind)",
+              "id": "HVAC_999_wind",
+              "layers": "HW_stat_999,unsuitable_areas_V2,LGA_boundary_999,Copperplate_999,major_cities,premium_pumped_hydro,point_caption2",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_LGA/wms?env=cap:Interactive%20LGA%20benefits%20map%20for%20sample%20HVAC%20lines.%0A%0ALGAs%20are%20coloured%20red%20to%20blue%2C%20representing%20expected%20annual%20generation%20from%20solar%20and%20wind%20in%20GWh%20%28redder%20is%20better%29.%0A%0AOnly%20areas%20within%20100%20km%20of%20the%20transmission%20backbone%20%28white%20line%29%20or%20the%20load%20centres%20%28yellow%20areas%29%20are%20coloured%2C%20as%20all%20solar%20and%20wind%20farms%20contributing%20to%20the%20modelled%20annual%20generation%20are%20within%20this%20range.%0A%0AGreen%20represents%20incompatible%20land%20%28national%20parks%2C%20forests%2C%20urban%29.%0A%0AToggle%20layers%20to%20compare%20the%20baseline%20%28no%20additional%20HVAC%29%20with%20a%20specific%20HVAC%20line%20%27on%27.%0A%0AClick%20any%20LGA%20to%20see%20detailed%20numbers%3A%0A%0A-%20HSGWH%3A%20Annual%20generation%20in%20GWh%20%28high-solar%20scenario%29.%0A%0A-%20HWGWH%3A%20Annual%20generation%20in%20GWh%20%28high-wind%20scenario%29.%0A%0A-%20CAPEX_B%3A%20Associated%20renewable%20investments%20%28AUD%20billions%29.%0A%0A-%20JCONS%3A%20Construction%20job-years%20created.%0A%0A-%20JOBS_OM%3A%20Operations%20and%20maintenance%20jobs%20created.%0A%0A-%20PAY_MPA%3A%20Annual%20hosting%20payment%20%28AUD%20millions%29.%0A%0A-%20%2A_B%3A%20The%20above%20without%20the%20HVAC%20%28baseline%20scenario%29."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heatmaps_priority_transmission",
+      "type": "group",
+      "name": "Australia Priority Transmission Routes",
+      "description": "Placeholder",
+      "members": [
+        {
+          "id": "transmission_HVAC",
+          "type": "group",
+          "name": "HVAC",
+          "description": "",
+          "members": [
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Shortlisted HVAC routes",
+              "id": "HVAC_shortlisted",
+              "layers": "HVAC_routes_update,point_caption",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_transmission/wms?env=cap:Interactive%20map%20of%20shortlisted%20HVAC%20transmission%20corridors.%0A%0AColour%20of%20the%20routes%20shows%20how%20much%20new%20solar%2Fwind%20each%20corridor%20unlocks%20per%20dollar%20%28red%20%3D%20best%29.%0A%0ALine%20thickness%20shows%20demand%20matching.%0A%0AWhite%2Fblack%20in%20the%20basemap%20indicate%20stronger%2Fweaker%20resources.%0A%0AGreen%20marks%20areas%20avoided%20%28parks%2Fforests%2Furban%29.%0A%0AWhite%20line%20and%20yellow%20areas%20represent%20major%20cities%20and%20the%20primary%20interconnection%20corridor%20between%20them.%0A%0AClick%20on%20any%20route%20to%20view%20detailed%20attributes%3A%0A%0A-%20Distance%3A%20length%20of%20the%20transmission%20line%20%28km%29%0A-%20RE_FOM%3A%20renewable%20energy%20potential%20figure-of-merit.%20Higher%20value%20means%20more%20renewable%20unlocked%20per%20dollar.%0A-%20MDFR%3A%20maximum%20demand%20fulfilment%20ratio%2C%20showing%20how%20well%20local%20load%20can%20be%20met%20by%20optimally%20mixed%20generation%20along%20that%20corridor.%0A-%20OverallFOM%3A%20sum%20of%20RE_FOM%20and%20MDFR.%0A"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Major cities and interconnections",
+              "id": "major_urban_areas",
+              "layers": "MajorUrbanAreas,Interconnections",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_transmission/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Major interconnections",
+              "id": "interconnection",
+              "layers": "Interconnections",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_transmission/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Renewable resource index",
+              "id": "RE_index",
+              "layers": "SolarWindResourceIndex2",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_transmission/wms"
+            }
+          ]
+        },
+        {
+          "id": "transmission_HVDC",
+          "type": "group",
+          "name": "HVDC",
+          "description": "",
+          "members": [
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Top HVDC connection points (NEM)",
+              "id": "HVDC_nem",
+              "layers": "HVDC_topNEM_update,point_caption,Clusters,Connections",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_transmission/wms?env=cap:Numbered%20circles%20mark%20the%20best%20inland%20connection%20hubs.%0A%0AColour%20shows%20the%20modelled%20NEM%20LCOE%20reduction%20in%20%25%20%28darker%20%3D%20bigger%20saving%29.%0A%0ADashed%20lines%20sketch%20candidate%20point-to-point%20HVDC%20routes%20to%20Brisbane%20and%20Wagga.%0A%0ABackground%20colours%20show%20winter%20resource%20strength%20%28red%20%3D%20stronger%2C%20green%20%3D%20weaker%29.%0A%0AWhite%20line%20and%20yellow%20areas%20represent%20major%20cities%20and%20the%20primary%20interconnection%20corridor%20between%20them.%0A%0AClick%20on%20any%20HVDC%20point%20to%20view%20detailed%20attributes%3A%0A%0A-%20deltaLCOE%3A%20NEM%20LCOE%20reduction%20in%20%25.%0A-%20Connection%3A%20which%20node%20the%20HVDC%20point%20is%20connected%20to.%0A-%20Opti_corr%3A%20correlation%20between%20optimised%20generation%20at%20the%20HVDC%20point%20and%20netload%20%28load%20minus%20non-flexible%20generation%29%20in%20the%20NEM%20during%20the%20most%20stressful%20week.%20Higher%20is%20preferred.%0A-%20Dist_km%3A%20straight-line%20distance%20between%20the%20HVDC%20point%20and%20the%20node%20%28km%29."
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "Winter average resource index",
+              "id": "winter_resource",
+              "layers": "winter_average_update",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_transmission/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "HVDC cluster",
+              "id": "HVDC_cluster",
+              "layers": "Clusters",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_transmission/wms"
+            },
+            {
+              "type": "wms",
+              "info": [
+                {
+                  "name": "Description",
+                  "content": "This information has been developed by the 100% Renewable Energy group from the School of Engineering at the Australia National University.  http://re100.eng.anu.edu.au"
+                },
+                {
+                  "name": "Disclaimer",
+                  "content": ""
+                },
+                {
+                  "name": "Access and acknowledgements",
+                  "content": "In publications that use this information please acknowledge the RE100 Group, Australian National University, http://re100.eng.anu.edu.au/"
+                }
+              ],
+              "infoSectionOrder": [
+                "Disclaimer",
+                "Description",
+                "Access and acknowledgements"
+              ],
+              "opacity": 1,
+              "featureInfoTemplate": {
+                "template": "<div>  <style>    tr {background-color: transparent; ! important;}  </style>  {{description}}</div>"
+              },
+              "tileErrorHandlingOptions": {
+                "ignoreUnknownTileErrors": true
+              },
+              "name": "HVDC connection",
+              "id": "HVDC_connection",
+              "layers": "Connections",
+              "url": "https://re100.anu.edu.au/geoserver/heatmaps_transmission/wms"
+            }
+          ]
         }
       ]
     }

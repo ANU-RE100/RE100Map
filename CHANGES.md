@@ -1,15 +1,28 @@
 # Change Log
 
+#### next release (0.4.7)
+
+- Upgrade terriajs-server to version 5 alpha
+  - Requires node version 22 or above
+  - Comes with a new version of proxy rewritten using undici instead of deprecated `request` package. This should improve the performance and reliability of the proxy. Please test your map with this new version of terriajs-server and report any issues you find.
+  - For full changelog see [terriajs-server CHANGES.md](https://github.com/TerriaJS/terriajs-server/blob/master/CHANGES.md#next-release---unreleased)
+
+#### 0.4.6
+
+- Upgrades TerriaJS to [8.12.2](https://github.com/TerriaJS/terriajs/blob/main/CHANGES.md#8120---2026-03-27)
+
+#### 0.4.5
+
+- Upgrades TerriaJS to [8.11.3](https://github.com/TerriaJS/terriajs/blob/main/CHANGES.md#8113---2026-02-02)
+
 #### 0.4.4
 
 **2025-12-04**
 
 - **Security fixes**
-
   - Fixed a security bug in `/proxy` endpoint that allowed requests to a variation of domains in the `allowProxyFor` list. If `example.com` is in `allowProxyFor` setting, this allowed requests to a domain with a different prefix, like `badexample.com` to pass through. [#212](https://github.com/TerriaJS/terriajs-server/pull/212)
 
 - **Deprecations**
-
   - Deprecates most of the proxy domains in the [default serverconfig.json](https://github.com/TerriaJS/TerriaMap/blob/d126a10a0625926762351b1b44b918fb03737836/serverconfig.json#L7-L25) file. These will be removed in a future release, so please add them through a [custom serverconfig.json](https://docs.terria.io/guide/getting-started/#customizing-terriamap) if you rely on terria proxying to any of these servers.
 
 - Upgrades TerriaJS to
@@ -141,9 +154,7 @@ Failed release workflow
 **2023-05-22**
 
 - Update TerriaJS to `8.3.0`
-
   - **Breaking changes:**
-
     - **Upgraded Mobx to version 6.7.x**
     - **Upgraded Typescript to version 4.9.x**
 

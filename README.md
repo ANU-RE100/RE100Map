@@ -19,6 +19,10 @@ To get in touch:
 
 Following is a list of major announcements and upgrades that may affect users maintaining a fork (copied from [TerriaJS announcements](https://github.com/TerriaJS/terriajs/discussions/categories/announcements)). For a full list of changes to TerriaMap, including the latest versions of TerriaJS included with each release please refer to [CHANGES.md](https://github.com/TerriaJS/TerriaMap/blob/main/CHANGES.md).
 
+### TerriaJS and TerriaMap monorepo consolidation incoming! (2026-06-15)
+
+[TerriaMap will be folded into TerriaJS to streamline development](https://github.com/TerriaJS/terriajs/discussions/7863), changes will continue to be mirrored out to TerriaMap - consider migrating your fork to `terriajs/terriajs` if you are actively maintaining two separate forks (TerriaMap+terriajs).
+
 ### We have released TerriaJS v8.3.0 (2023-05-22)
 
 Terriajs version `8.3.0` includes a few breaking changes:
